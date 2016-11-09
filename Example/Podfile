@@ -1,12 +1,6 @@
-use_frameworks!
+#use_frameworks!
 
 target 'DeviceInformation_Example' do
   pod 'DeviceInformation', :path => '../'
 
-  target 'DeviceInformation_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-  pod 'Expecta'
-  end
 end

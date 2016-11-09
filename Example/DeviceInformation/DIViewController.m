@@ -7,7 +7,8 @@
 //
 
 #import "DIViewController.h"
-
+#import "UIDevice+SoftwareInfo.h"
+#import "UIDevice+NetworkInfo.h"
 @interface DIViewController ()
 
 @end
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"iiiiip :%@",[UIDevice ip]);
+    NSLog(@"iiiidd :%@",[UIDevice idfa]);
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,0 +1,16 @@
+PODS:
+  - DeviceInformation (0.1.0)
+
+DEPENDENCIES:
+  - DeviceInformation (from `../`)
+
+EXTERNAL SOURCES:
+  DeviceInformation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DeviceInformation: 7482bbcd1d51323379bde82460b3bc23af2f1379
+
+PODFILE CHECKSUM: 63727ca556ffb055fc450d74df3072aad7944d8d
+
+COCOAPODS: 1.2.0.beta.1

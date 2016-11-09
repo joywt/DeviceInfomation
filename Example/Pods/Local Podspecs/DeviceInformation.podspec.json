@@ -1,0 +1,22 @@
+{
+  "name": "DeviceInformation",
+  "version": "0.1.0",
+  "summary": "A short description of DeviceInformation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DeviceInformation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangtie": "wangtie@shopstore.cn"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DeviceInformation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DeviceInformation/Classes/**/*"
+}
