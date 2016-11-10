@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DeviceInformation'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'get device information'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/joywt/DeviceInformation'
+  s.homepage         = 'https://github.com/joywt/DeviceInfomation.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangtie' => 'wangtie@360haoyao.com' }
-  s.source           = { :git => 'https://github.com/joywt/DeviceInformation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/joywt/DeviceInfomation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
