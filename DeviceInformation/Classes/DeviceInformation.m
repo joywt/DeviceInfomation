@@ -200,7 +200,7 @@ extern NSString *kReachabilityChangedNotification;
         if (TARGET_IPHONE_SIMULATOR) {
             _idfa =  @"2B356577-2BF2-4AF7-8971-0A1D20BF43A9";
         } else {
-            NSString *idfaString = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+            NSString *idfaString = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
             if (idfaString.length > 0) {
                 _idfa = idfaString;
             } else {
